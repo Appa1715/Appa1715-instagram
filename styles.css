@@ -14,22 +14,27 @@ div{
 }
 div.post{
     background-color: white;
+    margin-top: 10px
 }
 div.post h2, div.post p{
-    padding: 5px;
+    padding: 10px;
+    margin: 0;
 }
 div.post .header div:first-child{
     display: inline-block;
-    width: 50%;
+    width: 80%;
 }
 div.post .header div:last-child{
     display: inline-block;
-    width: 50%;
+    width: 20%;
 }
 div.post img{
-    width: 50%;
+    width: 100%;
 }
 div.container{
     width: 600px;
     margin: auto;
+}
+div.post span{
+     float: right;
 }
